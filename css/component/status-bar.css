@@ -1,0 +1,16 @@
+.status-bar{
+    height: 24px;
+    width: 400px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.status-bar--text{
+    font-size:13px;
+    font-weight: 600;
+    color: var(--font-black-color);
+}
+.fa-solid{
+    color: var(--font-black-color);
+}

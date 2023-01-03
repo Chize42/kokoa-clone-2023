@@ -1,0 +1,63 @@
+.openchat-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    width:375px;
+    position: relative;
+}
+.openchat-box-text-top{
+    display: flex;
+    flex-direction: column;
+}
+
+.openchat-box-text-title{
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--font-black-color);
+}
+.openchat-box-text-tag{
+    color: var(--font-grey-color);
+    margin-top: 5px;
+}
+.openchat-box-mainimg{
+    height: 88px;
+    width: 88px;
+    border-radius: 10px;
+  
+}
+.openchat-box-text-bottom{
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+}
+.openchat-box-profile{
+    width: 18px;
+    height: 18px;
+    border-radius: 43%;
+    border: 0.5px solid rgba(0,0,0,0.2);
+}
+.openchat-box-number{
+    color: var(--font-grey-color);
+    font-size: 13px;
+    margin-left: 7px;
+}
+.openchat-box-state{
+    color:rgb(255, 118, 223);
+    font-size: 13px;
+    margin-left: 7px;
+}
+.openchat-box-heart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    border-radius:20px ;
+    width: 50px;
+    height: 18px;
+    font-size: 11.5px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}

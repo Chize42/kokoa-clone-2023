@@ -1,0 +1,31 @@
+.index-box{
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+    border-top: 1px solid #c9c9c9 ;
+    margin-top: 12px;
+    padding-top: 10px;
+}
+.index-box-text{
+    font-size: 13px;
+    color: rgb(105, 105, 105);
+}
+.fa-chevron-down,
+.fa-chevron-up,
+.fa-chevron-right{
+    color: var(--font-grey-color);
+    margin-left: 3px;
+}
+
+#nofriends{
+    color: var(--font-grey-color);
+    padding: 70px 60px ;
+    box-sizing: border-box;
+    text-align: center;
+}
+.index-box-subtext{
+    font-size: 13px;
+    color: var(--font-grey-color);
+}

@@ -1,0 +1,35 @@
+.nav-bottom{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px 29.5px;
+    box-sizing: border-box;
+    background-color: #F9F9FA;
+}
+.nav-bottom i{
+    margin: 0px 30px;
+}
+#comment-alarm {
+    background-color:#FF6229 ;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 33px;
+    left: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    font-size: 4px;
+}
+#ellipsis-alarm{
+    color:#FF6229 ;
+    font-size: 40px;
+    position: absolute;
+    bottom: 37px;
+    right: 52px;
+}

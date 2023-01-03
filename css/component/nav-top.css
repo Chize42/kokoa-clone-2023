@@ -1,0 +1,29 @@
+.main-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main-header--text{
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px 18px;
+    color: var(--font-black-color);
+}
+.main-header--icon{
+    padding: 20px 18px;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    color: var(--font-black-color);
+}
+.main-header--icon i{
+    margin-left: 23px;
+}
+
+#gear-alarm{
+    color:#FF6229 ;
+    font-size: 35px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}

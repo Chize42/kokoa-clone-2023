@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div calss="status-ba--column">
+        <span class="status-bar--text">No Service</span>
+        <i class="fa-solid fa-wifi fa-xs"></i>
+      </div>
+      <div calss="status-bar--column">
+        <span class="status-bar--text">04:22</span>
+      </div>
+      <div calss="status-bar--column">
+        <span class="status-bar--text">42% </span>
+        <i class="fa-solid fa-battery-half fa-lg"></i>
+        <i class="fa-solid fa-bolt-lightning fa-2xs"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header--title">Welcome to Kokoa Clone</h1>
+      <p class="welcome-header--text">If you have a Kokoa Account,</p>
+      <p class="welcome-header--text">
+        log in with your email or phone number.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        class="login-form"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input class="login-form" type="password" placeholder="Password" />
+      <input class="login-submit" type="submit" value="Log In" />
+      <input class="login-submit" type="submit" value="Sign Up" />
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/56745053e8.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

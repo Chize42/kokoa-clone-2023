@@ -1,0 +1,18 @@
+.setting-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.setting-header--text{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 18px;
+    color: var(--font-black-color);
+}
+.setting-header--icon{
+    padding: 20px 18px;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    color: var(--font-black-color);
+}
